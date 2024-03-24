@@ -62,6 +62,10 @@ Emission | Overlap | Transition
 14 | Heterochromatin | <ul><li> Не выражен </li><li> Чаще всего находятся на ядерной ламине и всем геноме, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li>
 15 | Heterochromatin | <ul><li> выражен в H3K4me1 </li><li> Чаще всего находятся на ядерной ламине, RefSeqGene и RefSeqTES </li>
 
+## Картинки из браузера
+![Image](/data/browser/6-4-10-1-2-3-13-14.png)
+![Image](/data/broswer/5-7-8-9-10.png)
+![Image](/data/browser/11-15.png)
  
  ## Бонус
  ```
