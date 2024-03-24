@@ -64,7 +64,7 @@ Emission | Overlap | Transition
 
 ## Картинки из браузера
 ![Image](/data/browser/6-4-10-1-2-3-13-14.png)
-![Image](/data/broswer/5-7-8-9-10.png)
+![Image](/data/browser/5-7-8-9-10.png)
 ![Image](/data/browser/11-15.png)
  
  ## Бонус
