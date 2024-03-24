@@ -40,8 +40,27 @@ Emission | Overlap | Transition
  --- | --- | ---
 ![Image](/data/charts/states.png) | ![Image](/data/charts/regions.png) | ![Image](/data/charts/transitions.png)
 
-RefSeqTES
+### RefSeqTES
 ![Image](/data/charts/enrichment.png)
+
+## Эпигенетические типы
+№ | Название | Описание
+ --- | --- | ---
+1 | Active Promoter | <ul><li> выражен в H3K27me3 </li><li> Чаще всего находятся на RefSeqTES </li>
+2 | Weak enhancer/Weak transcribed | <ul><li> выражен в H3K27me3, H3K4me2 </li><li> Чаще всего находятся на RefSeqTES, CpGIsland, RefSeqExon </li>
+3 | Strong enhancer/Transcriptional elogation | <ul><li> выражен в H3K27me3, H3K4me2, H3K4me3 </li><li> Чаще всего находятся на RefSeqTSS, CpGIsland, RefSeqExon </li>
+4 | Active Promoter | <ul><li> выражен в H3K4me2, H3K4me3 </li><li> Чаще всего находятся на RefSeqTSS, CpGIsland, RefSeqExon и RefSeqTSS2Kb </li>
+5 | Active Promoter | <ul><li> выражен в H3K9ac, H3K4me2, H3K4me3 </li><li> Чаще всего находятся на RefSeqTSS, CpGIsland, RefSeqExon и RefSeqTSS2Kb </li>
+6 | Weak enhancer | <ul><li> выражен в H3K4me2 </li><li> Чаще всего находятся на RefSeqTES </li>
+7 | Weak enhancer | <ul><li> выражен в H3K4me2, H3K79me2 </li><li> Чаще всего находятся на RefSeqGene, RefSeqTSS2Kb </li>
+8 | Weak enhancer | <ul><li> выражен в H3K79me2 </li><li> Чаще всего находятся на RefSeqGene </li>
+9 | Weak enhancer | <ul><li> выражен в H3K79me2 </li><li> Чаще всего находятся на RefSeqGene </li>
+10 | Weak transcribed | <ul><li> Не выражен </li><li> Чаще всего находятся на RefSeqGene </li>
+11 | Weak transcribed | <ul><li> выражен в H3K36me3 </li><li> Чаще всего находятся на RefSeqGene, а также на RefSeqTES и RefSeqExon, но реже </li>
+12 | Weak transcribed | <ul><li> выражен в H3K9me3, H3K36me3 </li><li> Чаще всего находятся на RefSeqExon, а также на RefSeqTES, но реже </li>
+13 | Repressed | <ul><li> выражен в H3K9me3</li><li> Чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li>
+14 | Heterochromatin | <ul><li> Не выражен </li><li> Чаще всего находятся на ядерной ламине и всем геноме, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li>
+15 | Heterochromatin | <ul><li> выражен в H3K4me1 </li><li> Чаще всего находятся на ядерной ламине, RefSeqGene и RefSeqTES </li>
 
  
  ## Бонус
